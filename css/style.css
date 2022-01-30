@@ -9917,25 +9917,6 @@ h5,
   line-height: 1.2;
   font-weight: 400;
 }
-
-/*blog css*/
-
-.blog-section p, .blog-section a{
-    display: none;
-}
-
-.blog-section .card{
-    width: 14rem;
-    transition: width 2s;
-}
-
-.blog-section .card:hover .blog-section p, .blog-section .card:hover .blog-section a{
-    display: block;
-} 
-.blog-section .card:hover .blog-section .card{
-    width: 18rem;
-}
-/*blog css ends*/
 @media (max-width: 991.98px) {
   .owl-carousel.home-slider .slider-item .slider-text h1 {
     font-size: 30px;
