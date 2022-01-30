@@ -71,8 +71,12 @@ html {
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
+  box-shadow: 0 0 0 0 rgba(#5a99d4, .5);
+  -webkit-animation: pulse 1.5s infinite;
   z-index: 1;
+}
+.float_whatsapp:hover{
+    -webkit-animation: none;
 }
 
 .my-float_whatsapp {
@@ -89,13 +93,33 @@ html {
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
+  box-shadow: 0 0 0 0 rgba(#5a99d4, .5);
+  -webkit-animation: pulse 1.5s infinite;
    z-index: 1; 
+}
+.float_call:hover{
+    -webkit-animation: none;
 }
 
 .my-float_call {
   margin-top: 16px;
 }
+
+
+@-webkit-keyframes pulse {
+  0% {
+    @include transform(scale(.9));
+  }
+  70% {
+    @include transform(scale(1));
+    box-shadow: 0 0 0 50px rgba(#5a99d4, 0);
+  }
+    100% {
+    @include transform(scale(.9));
+    box-shadow: 0 0 0 0 rgba(#5a99d4, 0);
+  }
+}
+
 
 
 article,
