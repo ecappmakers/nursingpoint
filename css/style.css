@@ -138,8 +138,8 @@ section {
 
 body {
   margin: 0;
-  font-family: 'PT Sans', sans-serif !important;
- font-size: 1rem;
+  font-family: 'PT Sans', sans-serif;
+   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
@@ -272,7 +272,6 @@ pre,
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
   font-size: 1em;
 }
 
@@ -332,7 +331,6 @@ select,
 optgroup,
 textarea {
   margin: 0;
-  font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
@@ -454,7 +452,6 @@ h6,
 .h5,
 .h6 {
   margin-bottom: 0.5rem;
-  font-family: inherit;
   font-weight: 500;
   line-height: 1.2;
   color: inherit;
@@ -602,13 +599,6 @@ mark,
   color: #6c757d;
 }
 
-code,
-kbd,
-pre,
-samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
-}
 
 code {
   font-size: 87.5%;
@@ -5900,10 +5890,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
-  font-style: normal;
+   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
@@ -6016,10 +6003,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
-    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
-  font-style: normal;
+   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   text-align: left;
@@ -9268,10 +9252,7 @@ button.bg-dark:focus {
   }
 }
 
-.text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
-    "Courier New", monospace;
-}
+
 
 .text-justify {
   text-align: justify !important;
@@ -9552,7 +9533,6 @@ a.text-dark:focus {
 }
 
 body {
-  font-family: "Open Sans", Arial, sans-serif;
   background: #fff;
   font-size: 15px;
   line-height: 1.8;
@@ -11768,8 +11748,7 @@ textarea.form-control {
   left: 0;
 }
 .block-8 .accordion-item .heading > a[aria-expanded="true"]:before {
-  font-family: "icomoon";
-  position: absolute;
+   position: absolute;
   content: "\e316";
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
@@ -11781,7 +11760,6 @@ textarea.form-control {
 .block-8 .accordion-item .heading > a[aria-expanded="false"]:before {
   content: "\e313";
   color: #ccc;
-  font-family: "icomoon";
   position: absolute;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
