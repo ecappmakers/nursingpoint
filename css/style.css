@@ -58,7 +58,7 @@
 .w-18rem {
   width: 18rem !important;
 }
-.lh-base{
+.lh-base {
   line-height: 40px !important;
 }
 .section-counter {
@@ -4309,7 +4309,6 @@ input[type="button"].btn-block {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
 }
 .navbar > .container,
 .navbar > .container-fluid {
@@ -4513,7 +4512,6 @@ input[type="button"].btn-block {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
