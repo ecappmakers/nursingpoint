@@ -45,23 +45,7 @@
   border-radius: 50%;
   position: relative;
 }
-@media only screen and (max-width: 992px) {
-  .header_contact a {
-    font-size: 0.75rem !important;
-  }
-  .fs-1 {
-    font-size: 1rem !important;
-  }
-  .fs-2 {
-    font-size: 0.75rem !important;
-  }
-  .fs-3 {
-    font-size: 0.5rem !important;
-  }
-  .fs-4 {
-    font-size: 0.25rem;
-  }
-}
+
 .logo img {
   height: 80px;
   width: 180px;
@@ -193,7 +177,83 @@
   height: 250px;
   width: 250px;
 }
+
+/*we need to style the popup with CSS so it is placed as a popup does*/
+#popup {
+  display: none;
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 7;
+  /* box-shadow: 0px 0px 50px 2px #000; */
+}
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 6;
+}
+
+#slider {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.content {
+  height: 80vh;
+  width: 43vh;
+  overflow: hidden;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.4);
+}
+
+.content .images {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.images img {
+  height: 100%;
+  width: 100%;
+}
+
+.close {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+}
+
+.close-icon {
+  height: 30px !important;
+  width: auto !important;
+}
+
 @media (max-width: 992px) {
+  .header_contact a {
+    font-size: 0.75rem !important;
+  }
+  .fs-1 {
+    font-size: 1rem !important;
+  }
+  .fs-2 {
+    font-size: 0.75rem !important;
+  }
+  .fs-3 {
+    font-size: 0.5rem !important;
+  }
+  .fs-4 {
+    font-size: 0.25rem;
+  }
   .blogQuickLink {
     margin-top: 15px !important;
     margin-bottom: 15px !important;
@@ -209,5 +269,9 @@
   .emergency {
     height: 150px;
     width: 150px;
+  }
+  .content {
+    height: 55vh;
+    width: 31vh;
   }
 }

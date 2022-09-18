@@ -18,3 +18,37 @@ function submitAppointmentForm() {
     },
   });
 }
+
+//////////////////////// ad slider js /////////////////////////////
+//with this first line we're saying: "when the page loads (document is ready) run the following script"
+$(document).ready(function () {
+  //select the POPUP FRAME and show it
+  $("#popup").hide().fadeIn(1000);
+  $("#overlay").hide().fadeIn(1000);
+  $("#body").css("overflowY", "hidden");
+  //close the POPUP if the button with id="close" is clicked
+  $("#close").on("click", function (e) {
+    e.preventDefault();
+    $("#popup").fadeOut(1000);
+    $("#overlay").fadeOut(1000);
+    $("#body").css("overflowY", "auto");
+  });
+});
+
+// image slider
+var indexValue = 0;
+
+function slideShow() {
+  setTimeout(slideShow, 2500);
+  var x;
+  const img = document.querySelectorAll(".slider-img");
+  for (x = 0; x < img.length; x++) {
+    img[x].style.display = "none";
+  }
+  indexValue++;
+  if (indexValue > img.length) {
+    indexValue = 1;
+  }
+  img[indexValue - 1].style.display = "block";
+}
+slideShow();
