@@ -104,7 +104,7 @@
   bottom: 20px;
   padding-top: 10px;
   left: 20px;
-  background-color: #0000ff;
+  background-color: #0dcaf0;
   color: #fff !important;
   border-radius: 50px;
   text-align: center;
@@ -273,5 +273,28 @@
   .content {
     height: 55vh;
     width: 31vh;
+  }
+  .float_whatsapp {
+    height: 50px;
+    width: 50px;
+    font-size: 21px;
+    left: 10px;
+    bottom: 84px;
+  }
+  .float_call {
+    height: 50px;
+    width: 50px;
+    font-size: 21px;
+    left: 10px;
+  }
+  .star {
+    height: 57px;
+    width: 179px;
+  }
+  .banner-text{
+    font-size: 2rem !important;
+  }
+  a.text-decoration-none.text-dark.keyword {
+    font-size: 9px;
   }
 }
