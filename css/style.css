@@ -291,10 +291,16 @@
     height: 57px;
     width: 179px;
   }
-  .banner-text{
-    font-size: 2rem !important;
+  .banner-text {
+    font-size: 1.5rem !important;
   }
   a.text-decoration-none.text-dark.keyword {
     font-size: 9px;
+  }
+  .banner_blog img {
+    height: 171px !important;
+  }
+  .banner-text {
+    top: 18%;
   }
 }
