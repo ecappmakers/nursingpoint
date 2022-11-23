@@ -45,7 +45,9 @@
   border-radius: 50%;
   position: relative;
 }
-
+.navbar{
+  z-index: 5 !important;
+}
 .logo img {
   height: 80px;
   width: 180px;
@@ -301,6 +303,6 @@
     height: 171px !important;
   }
   .banner-text {
-    top: 18%;
+    top: 21%;
   }
 }
